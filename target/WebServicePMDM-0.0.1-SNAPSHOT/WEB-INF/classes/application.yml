@@ -1,0 +1,44 @@
+########################################################
+#############   COMMON PROPERTIES BEGIN   ##############
+########################################################
+
+interfaceName: PMDM
+interfaceId: PMDM_ID
+
+#path to the business data file
+integrationProperties: integration.yml
+integrationPropertiesRefreshTime: 60000
+
+#path to the logging config file
+loggingProperties: src/main/resources/logging.yml
+loggingPropertiesRefreshTime: 60000
+
+useActiveMQ: true
+
+#path to the keystore
+keyStorePath: /home/stoykov/tmp/KohlsConcord/keystore/mq_keystore.jceks
+keyStorePassword: Pass123$
+
+
+#path to the input processing folder
+itemInputFolderPath: D:\test\input
+velocityInputFolderPath: D:\test\velocity
+velocityErrorFolderPath: D:\test\velocity\error
+
+#server.port: 8080
+########################################################
+#############    COMMON PROPERTIES END    ##############
+########################################################
+maximumRedeliveries: 5
+#in miliseconds
+redeliveryDelay: 12000
+
+server.port: 8061
+
+test:
+    mqQueue: testqueue
+    mqConnectionList: localhost(61616)
+    mqMngr: Dev
+    mqChannel: SYSTEM.DEF.SVRCONN
+    mqUser: admin
+    mqPassword: MQ_EFC_5_PASSWORD_ALIAS
