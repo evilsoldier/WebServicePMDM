@@ -81,6 +81,9 @@
 								<wsdlOption>
 									<wsdl>${basedir}/src/main/resources/GetSKU.wsdl</wsdl>
 								</wsdlOption>
+								<wsdlOption>
+									<wsdl>${basedir}/src/main/resources/PMDMLogisticsWarehouseAttributeUpdateServiceV1.wsdl</wsdl>
+								</wsdlOption>
 							</wsdlOptions>
 						</configuration>
 						<goals>

@@ -67,6 +67,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateVendorDepartmentAssociationInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateCategoryTargetAttributeCrossReferenceInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/SearchKohlsStyleCountryInput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/camel/UpdateSKUServiceImpl.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateKohlsStyleProductCapacityOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteReferenceValueInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteAttributeRuleManagementOutput.java
@@ -86,6 +87,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetOperatingCompanyInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateReportingLabelPurposeOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateGMAOutput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/concrete_wsdl/updatesku/v1/UpdateWarehouseAttributesFault.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetDepartmentSizeAssociationOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/ClassAttributesListType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/SearchBusinessAreaInput.java
@@ -153,6 +155,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetProductMDMSecurityAttributeOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateKohlsStyleCountryOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteBusinessGroupInput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/productmdm/logisticsinterface/v1/package-info.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateSizeOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateUPCOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/tibco/cim/services/adminservice/wsdl/_2/ResourcesType.java
@@ -325,6 +328,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/KeepAliveProductMDMSessionInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/DepartmentBrandVendorAssociationType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/MDMRoleListType.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/productmdm/logisticsinterface/v1/UpdateWarehouseAttributesInputType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetConsumerProductGroupInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/productgrouptypes/v1/package-info.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetDepartmentOutput.java
@@ -336,6 +340,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/productgrouptypes/v1/DepartmentBCType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateCategoryTargetAttributeCrossReferenceOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateDepartmentBrandVendorAssociationInput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/productmdm/logisticsinterface/v1/WSUpdateOutputSKUAttributeType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/tibco/schemas/urn/kohls/xml/schemas/message_header/v1_0/ParametersType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/SearchConsumerProductSKUAssociationInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/OperatingCompanyListType.java
@@ -396,6 +401,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateKSVSAssociationOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteKohlsStyleProductCapacityOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/client/PMDMMessage.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/productmdm/logisticsinterface/v1/ObjectFactory.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateVendorOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/ConsumerProductType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/OperatingCompanyType.java
@@ -451,6 +457,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteBrandInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateGMAOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/SearchKohlsStyleInput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/productmdm/logisticsinterface/v1/WSUpdateOutputSKUDimensionType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/SearchSizeInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetKSVSAssociationInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/ValidValues.java
@@ -462,6 +469,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/tibco/cim/services/adminservice/wsdl/_2/EnterpriseType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateReportingLabelPurposeInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/ConsumerProductGroupAttributesType.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/productmdm/logisticsinterface/v1/UpdateWarehouseAttributesOutputType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteGMAInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetSizeInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/ConsumerProductSKUAssociationType.java
@@ -472,6 +480,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateReferenceCodeOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteKohlsStyleProductCapacityInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateClassOutput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/productmdm/logisticsinterface/v1/WSUpdateInputSKUDimensionType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateProductMDMUserInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateBrandInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/MDMCommandType.java
@@ -491,6 +500,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdatePSGOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateAttributeNameCrossReferenceOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateKohlsStyleVendorStylePartnerOutput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/concrete_wsdl/updatesku/v1/UpdateWarehouseAttributesPort.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteVendorOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/ConsumerProductSKUAssociationListType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/SearchVendorUPCOutput.java
@@ -559,6 +569,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateAttributeNameCrossReferenceInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/SearchConsumerProductOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetVendorDepartmentAssociationInput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/productmdm/logisticsinterface/v1/WSUpdateInputSKUAttributeType.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateAttributeNameCrossReferenceInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateKSVSAssociationInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetUPCInput.java
@@ -591,6 +602,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteKohlsStyleVendorStylePartnerOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/UpdateDepartmentBrandAssociationInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetKohlsStyleVendorStylePartnerInput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/concrete_wsdl/updatesku/v1/LogisticsAttributeUpdateService.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/GetProductMDMRolesOutput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/DeleteReportingLabelPurposeInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/producttypescdm/v1/CalendarType.java
@@ -668,6 +680,7 @@
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/SearchClassInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/tibco/cim/services/adminservice/wsdl/_2/package-info.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateBrandOutput.java
+/home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/camel/UpdateSKURoute.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreatePSGInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateKohlsStyleInput.java
 /home/stoykov/tmp/workspace/WebServicePMDM/src/main/java/com/kohls/schemas/cdm/bsinputoutputtypes/v1/CreateDMAOutput.java

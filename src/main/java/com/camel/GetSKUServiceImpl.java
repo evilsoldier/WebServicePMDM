@@ -10,23 +10,27 @@ import com.kohls.concrete_wsdl.getsku.v1.GetSKUFault;
 import com.kohls.concrete_wsdl.getsku.v1.GetSKUPort;
 import com.kohls.schemas.cdm.bsinputoutputtypes.v1.GetSKUInput;
 import com.kohls.schemas.cdm.bsinputoutputtypes.v1.GetSKUOutput;
+import com.kohls.schemas.cdm.producttypescdm.v1.SKUAttributesType;
 import com.kohls.schemas.cdm.producttypescdm.v1.SKUDimensionListType;
 import com.kohls.schemas.cdm.producttypescdm.v1.SKUDimensionType;
 import com.kohls.schemas.cdm.producttypescdm.v1.SKUListType;
 import com.kohls.schemas.cdm.producttypescdm.v1.SKUType;
 
 @Component
-@WebService(endpointInterface = "com.kohls.concrete_wsdl.getsku.v1.GetSKUPORT")
+@WebService(endpointInterface = "com.kohls.concrete_wsdl.getsku.v1.GetSKUPort")
 public class GetSKUServiceImpl implements GetSKUPort {
 
-	@Override
-	public GetSKUOutput getSKUOperation(GetSKUInput getSKUInput) throws GetSKUFault {
+	public GetSKUOutput getSKUOperation(GetSKUInput input) throws GetSKUFault  {
+		//throw new GetSKUFault();
 		GetSKUOutput output = new GetSKUOutput();
 		SKUListType skuList = new SKUListType();
 		SKUType sku = new SKUType();
+		SKUAttributesType skuAttr = new SKUAttributesType();
+		skuAttr.setOmniChannelFulfillmentCharacteristicCodeM("0|1|2|4");
+		sku.setSKUAttributes(skuAttr);
 		SKUDimensionListType dimList = new SKUDimensionListType();
 		SKUDimensionType dim = new SKUDimensionType();
-		dim.setSKUNumber(getSKUInput.getSKUList().getSKU().get(0).getSKUAttributes().getSKUNumber());
+		dim.setSKUNumber(input.getSKUList().getSKU().get(0).getSKUAttributes().getSKUNumber());
 		dim.setSKUDimensionUsageCode("2");
 		dim.setPieceNumber(1l);
 		dim.setHeightQuantity(new BigDecimal("4.0"));
