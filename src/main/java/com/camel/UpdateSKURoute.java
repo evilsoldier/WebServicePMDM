@@ -1,5 +1,6 @@
 package com.camel;
 
+import com.kohls.schemas.productmdm.logisticsinterface.v1.UpdateWarehouseAttributesInputType;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
@@ -7,8 +8,6 @@ import org.apache.camel.component.cxf.CxfEndpoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-
-import com.kohls.schemas.productmdm.logisticsinterface.v1.UpdateWarehouseAttributesInputType;
 
 @Component
 public class UpdateSKURoute extends RouteBuilder {

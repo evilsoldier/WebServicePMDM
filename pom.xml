@@ -4,19 +4,9 @@
 	<groupId>com.kohls.ws</groupId>
 	<artifactId>WebServicePMDM</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<dependencies>
- 		<dependency>
-			<groupId>com.kohls.commons</groupId>
-			<artifactId>CommonsProcessor</artifactId>
-			<version>1.0.0</version>
-		</dependency> 
-		<dependency>
-			<groupId>com.kohls.commons</groupId>
-			<artifactId>Commons</artifactId>
-			<version>1.0.0</version>
-		</dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-core</artifactId>

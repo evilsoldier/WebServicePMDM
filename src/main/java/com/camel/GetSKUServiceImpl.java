@@ -1,11 +1,5 @@
 package com.camel;
 
-import java.math.BigDecimal;
-
-import javax.jws.WebService;
-
-import org.springframework.stereotype.Component;
-
 import com.kohls.concrete_wsdl.getsku.v1.GetSKUFault;
 import com.kohls.concrete_wsdl.getsku.v1.GetSKUPort;
 import com.kohls.schemas.cdm.bsinputoutputtypes.v1.GetSKUInput;
@@ -15,6 +9,10 @@ import com.kohls.schemas.cdm.producttypescdm.v1.SKUDimensionListType;
 import com.kohls.schemas.cdm.producttypescdm.v1.SKUDimensionType;
 import com.kohls.schemas.cdm.producttypescdm.v1.SKUListType;
 import com.kohls.schemas.cdm.producttypescdm.v1.SKUType;
+import org.springframework.stereotype.Component;
+
+import javax.jws.WebService;
+import java.math.BigDecimal;
 
 @Component
 @WebService(endpointInterface = "com.kohls.concrete_wsdl.getsku.v1.GetSKUPort")
