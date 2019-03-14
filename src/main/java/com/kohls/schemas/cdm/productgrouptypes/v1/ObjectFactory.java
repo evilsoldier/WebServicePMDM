@@ -123,8 +123,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ClassBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ClassBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ClassBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "ClassBC")
     public JAXBElement<ClassBCType> createClassBC(ClassBCType value) {
@@ -132,8 +136,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "CustomerChoiceBC")
     public JAXBElement<CustomerChoiceBCType> createCustomerChoiceBC(CustomerChoiceBCType value) {
@@ -141,8 +149,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "DepartmentBC")
     public JAXBElement<DepartmentBCType> createDepartmentBC(DepartmentBCType value) {
@@ -150,8 +162,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "DivisionalMerchandiseAreaBC")
     public JAXBElement<DivisionalMerchandiseAreaBCType> createDivisionalMerchandiseAreaBC(DivisionalMerchandiseAreaBCType value) {
@@ -159,8 +175,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "GeneralMerchandiseAreaBC")
     public JAXBElement<GeneralMerchandiseAreaBCType> createGeneralMerchandiseAreaBC(GeneralMerchandiseAreaBCType value) {
@@ -168,8 +188,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "KohlsStyleBC")
     public JAXBElement<KohlsStyleBCType> createKohlsStyleBC(KohlsStyleBCType value) {
@@ -177,8 +201,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link OperatingCompanyBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "OperatingCompanyBC")
     public JAXBElement<OperatingCompanyBCType> createOperatingCompanyBC(OperatingCompanyBCType value) {
@@ -186,8 +214,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "SKUBC")
     public JAXBElement<SKUBCType> createSKUBC(SKUBCType value) {
@@ -195,8 +227,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SubClassBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "SubClassBC")
     public JAXBElement<SubClassBCType> createSubClassBC(SubClassBCType value) {
@@ -204,8 +240,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link UPCBCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link UPCBCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link UPCBCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductGroupTypes/V1", name = "UPCBC")
     public JAXBElement<UPCBCType> createUPCBC(UPCBCType value) {

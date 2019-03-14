@@ -13,7 +13,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * A grouping of Consumer Product Ids that may cross Departments or Buying responsibilities among other things.  This is a customer presentation decision.  Ex. Croft & BarrowÂ® Island Collection Tropical Casual Button-Front Shirt (923054)  Aka:  Super Web Id
+ * A grouping of Consumer Product Ids that may cross Departments or Buying responsibilities among other things.  This is a customer presentation decision.  Ex. Croft & Barrow® Island Collection Tropical Casual Button-Front Shirt (923054)  Aka:  Super Web Id
  * 
  * Open Topic:
  *  1.  Presentation template would need to be able to be chosen at this level.

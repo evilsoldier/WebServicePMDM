@@ -34,6 +34,7 @@ maximumRedeliveries: 5
 redeliveryDelay: 12000
 
 server.port: 8061
+hostAndPort: 10.0.0.68:8061
 
 test:
     mqQueue: testqueue

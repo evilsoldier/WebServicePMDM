@@ -1624,8 +1624,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AdvanceFilterType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link AdvanceFilterType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AdvanceFilterType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "AdvanceFilter")
     public JAXBElement<AdvanceFilterType> createAdvanceFilter(AdvanceFilterType value) {
@@ -1633,8 +1637,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AttributeNameCrossReferenceType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link AttributeNameCrossReferenceType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AttributeNameCrossReferenceType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "AttributeNameCrossReference")
     public JAXBElement<AttributeNameCrossReferenceType> createAttributeNameCrossReference(AttributeNameCrossReferenceType value) {
@@ -1642,8 +1650,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AttributeNameCrossReferenceListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link AttributeNameCrossReferenceListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AttributeNameCrossReferenceListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "AttributeNameCrossReferenceList")
     public JAXBElement<AttributeNameCrossReferenceListType> createAttributeNameCrossReferenceList(AttributeNameCrossReferenceListType value) {
@@ -1651,8 +1663,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AttributeRuleManagementType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link AttributeRuleManagementType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AttributeRuleManagementType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "AttributeRuleManagement")
     public JAXBElement<AttributeRuleManagementType> createAttributeRuleManagement(AttributeRuleManagementType value) {
@@ -1660,8 +1676,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link AttributeRuleManagementListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link AttributeRuleManagementListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link AttributeRuleManagementListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "AttributeRuleManagementList")
     public JAXBElement<AttributeRuleManagementListType> createAttributeRuleManagementList(AttributeRuleManagementListType value) {
@@ -1669,8 +1689,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BrandType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BrandType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BrandType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Brand")
     public JAXBElement<BrandType> createBrand(BrandType value) {
@@ -1678,8 +1702,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BrandAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BrandAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BrandAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BrandAttributes")
     public JAXBElement<BrandAttributesType> createBrandAttributes(BrandAttributesType value) {
@@ -1687,8 +1715,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BrandAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BrandAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BrandAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BrandAttributesList")
     public JAXBElement<BrandAttributesListType> createBrandAttributesList(BrandAttributesListType value) {
@@ -1696,8 +1728,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BrandListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BrandListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BrandListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BrandList")
     public JAXBElement<BrandListType> createBrandList(BrandListType value) {
@@ -1705,8 +1741,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BusinessAreaType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BusinessAreaType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BusinessAreaType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BusinessArea")
     public JAXBElement<BusinessAreaType> createBusinessArea(BusinessAreaType value) {
@@ -1714,8 +1754,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BusinessAreaListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BusinessAreaListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BusinessAreaListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BusinessAreaList")
     public JAXBElement<BusinessAreaListType> createBusinessAreaList(BusinessAreaListType value) {
@@ -1723,8 +1767,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BusinessGroupType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BusinessGroupType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BusinessGroupType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BusinessGroup")
     public JAXBElement<BusinessGroupType> createBusinessGroup(BusinessGroupType value) {
@@ -1732,8 +1780,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BusinessGroupListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BusinessGroupListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BusinessGroupListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BusinessGroupList")
     public JAXBElement<BusinessGroupListType> createBusinessGroupList(BusinessGroupListType value) {
@@ -1741,8 +1793,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BuyingContactType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BuyingContactType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BuyingContactType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BuyingContact")
     public JAXBElement<BuyingContactType> createBuyingContact(BuyingContactType value) {
@@ -1750,8 +1806,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link BuyingContactListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link BuyingContactListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link BuyingContactListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BuyingContactList")
     public JAXBElement<BuyingContactListType> createBuyingContactList(BuyingContactListType value) {
@@ -1759,8 +1819,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CPProductType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CPProductType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CPProductType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CPProduct")
     public JAXBElement<CPProductType> createCPProduct(CPProductType value) {
@@ -1768,8 +1832,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CPProductListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CPProductListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CPProductListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CPProductList")
     public JAXBElement<CPProductListType> createCPProductList(CPProductListType value) {
@@ -1777,8 +1845,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CPSKUType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CPSKU")
     public JAXBElement<CPSKUType> createCPSKU(CPSKUType value) {
@@ -1786,8 +1858,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUGroupType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUGroupType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CPSKUGroupType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CPSKUGroup")
     public JAXBElement<CPSKUGroupType> createCPSKUGroup(CPSKUGroupType value) {
@@ -1795,8 +1871,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUGroupListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUGroupListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CPSKUGroupListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CPSKUGroupList")
     public JAXBElement<CPSKUGroupListType> createCPSKUGroupList(CPSKUGroupListType value) {
@@ -1804,8 +1884,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CPSKUListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CPSKUList")
     public JAXBElement<CPSKUListType> createCPSKUList(CPSKUListType value) {
@@ -1813,8 +1897,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CPStoreHierarchyType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CPStoreHierarchyType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CPStoreHierarchyType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CPStoreHierarchy")
     public JAXBElement<CPStoreHierarchyType> createCPStoreHierarchy(CPStoreHierarchyType value) {
@@ -1822,8 +1910,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CalendarType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CalendarType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CalendarType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Calendar")
     public JAXBElement<CalendarType> createCalendar(CalendarType value) {
@@ -1831,8 +1923,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CalendarListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CalendarListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CalendarListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CalendarList")
     public JAXBElement<CalendarListType> createCalendarList(CalendarListType value) {
@@ -1840,8 +1936,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryTargetAttributeCrossReferenceType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryTargetAttributeCrossReferenceType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CategoryTargetAttributeCrossReferenceType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CategoryTargetAttributeCrossReference")
     public JAXBElement<CategoryTargetAttributeCrossReferenceType> createCategoryTargetAttributeCrossReference(CategoryTargetAttributeCrossReferenceType value) {
@@ -1849,8 +1949,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryTargetAttributeCrossReferenceListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CategoryTargetAttributeCrossReferenceListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CategoryTargetAttributeCrossReferenceListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CategoryTargetAttributeCrossReferenceList")
     public JAXBElement<CategoryTargetAttributeCrossReferenceListType> createCategoryTargetAttributeCrossReferenceList(CategoryTargetAttributeCrossReferenceListType value) {
@@ -1858,8 +1962,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ClassType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ClassType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ClassType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Class")
     public JAXBElement<ClassType> createClass(ClassType value) {
@@ -1867,8 +1975,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ClassAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ClassAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ClassAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ClassAttributes")
     public JAXBElement<ClassAttributesType> createClassAttributes(ClassAttributesType value) {
@@ -1876,8 +1988,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ClassAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ClassAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ClassAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ClassAttributesList")
     public JAXBElement<ClassAttributesListType> createClassAttributesList(ClassAttributesListType value) {
@@ -1885,8 +2001,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ClassListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ClassListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ClassListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ClassList")
     public JAXBElement<ClassListType> createClassList(ClassListType value) {
@@ -1894,8 +2014,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Color")
     public JAXBElement<ColorType> createColor(ColorType value) {
@@ -1903,8 +2027,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ColorListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ColorListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ColorListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ColorList")
     public JAXBElement<ColorListType> createColorList(ColorListType value) {
@@ -1912,8 +2040,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerNRFColor")
     public JAXBElement<ColorType> createConsumerNRFColor(ColorType value) {
@@ -1921,8 +2053,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProduct")
     public JAXBElement<ConsumerProductType> createConsumerProduct(ConsumerProductType value) {
@@ -1930,8 +2066,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductAttributes")
     public JAXBElement<ConsumerProductAttributesType> createConsumerProductAttributes(ConsumerProductAttributesType value) {
@@ -1939,8 +2079,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductAttributesList")
     public JAXBElement<ConsumerProductAttributesListType> createConsumerProductAttributesList(ConsumerProductAttributesListType value) {
@@ -1948,8 +2092,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductGroup")
     public JAXBElement<ConsumerProductGroupType> createConsumerProductGroup(ConsumerProductGroupType value) {
@@ -1957,8 +2105,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductGroupAttributes")
     public JAXBElement<ConsumerProductGroupAttributesType> createConsumerProductGroupAttributes(ConsumerProductGroupAttributesType value) {
@@ -1966,8 +2118,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductGroupAttributesList")
     public JAXBElement<ConsumerProductGroupAttributesListType> createConsumerProductGroupAttributesList(ConsumerProductGroupAttributesListType value) {
@@ -1975,8 +2131,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupConsumerProductAssociationType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupConsumerProductAssociationType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupConsumerProductAssociationType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductGroupConsumerProductAssociation")
     public JAXBElement<ConsumerProductGroupConsumerProductAssociationType> createConsumerProductGroupConsumerProductAssociation(ConsumerProductGroupConsumerProductAssociationType value) {
@@ -1984,8 +2144,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupConsumerProductAssociationListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupConsumerProductAssociationListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupConsumerProductAssociationListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductGroupConsumerProductAssociationList")
     public JAXBElement<ConsumerProductGroupConsumerProductAssociationListType> createConsumerProductGroupConsumerProductAssociationList(ConsumerProductGroupConsumerProductAssociationListType value) {
@@ -1993,8 +2157,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductGroupListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductGroupList")
     public JAXBElement<ConsumerProductGroupListType> createConsumerProductGroupList(ConsumerProductGroupListType value) {
@@ -2002,8 +2170,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductList")
     public JAXBElement<ConsumerProductListType> createConsumerProductList(ConsumerProductListType value) {
@@ -2011,8 +2183,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductSKUAssociationType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductSKUAssociationType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductSKUAssociationType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductSKUAssociation")
     public JAXBElement<ConsumerProductSKUAssociationType> createConsumerProductSKUAssociation(ConsumerProductSKUAssociationType value) {
@@ -2020,8 +2196,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductSKUAssociationListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ConsumerProductSKUAssociationListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ConsumerProductSKUAssociationListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerProductSKUAssociationList")
     public JAXBElement<ConsumerProductSKUAssociationListType> createConsumerProductSKUAssociationList(ConsumerProductSKUAssociationListType value) {
@@ -2029,8 +2209,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link Long }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link Long }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link Long }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Count")
     public JAXBElement<Long> createCount(Long value) {
@@ -2038,8 +2222,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CountryType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CountryType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CountryType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Country")
     public JAXBElement<CountryType> createCountry(CountryType value) {
@@ -2047,8 +2235,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CountryListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CountryListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CountryListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CountryList")
     public JAXBElement<CountryListType> createCountryList(CountryListType value) {
@@ -2056,8 +2248,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CustomerChoiceType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CustomerChoice")
     public JAXBElement<CustomerChoiceType> createCustomerChoice(CustomerChoiceType value) {
@@ -2065,8 +2261,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CustomerChoiceAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CustomerChoiceAttributes")
     public JAXBElement<CustomerChoiceAttributesType> createCustomerChoiceAttributes(CustomerChoiceAttributesType value) {
@@ -2074,8 +2274,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CustomerChoiceAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CustomerChoiceAttributesList")
     public JAXBElement<CustomerChoiceAttributesListType> createCustomerChoiceAttributesList(CustomerChoiceAttributesListType value) {
@@ -2083,8 +2287,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBirthstoneType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBirthstoneType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBirthstoneType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CustomerChoiceBirthstone")
     public JAXBElement<CustomerChoiceBirthstoneType> createCustomerChoiceBirthstone(CustomerChoiceBirthstoneType value) {
@@ -2092,8 +2300,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBirthstoneListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBirthstoneListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CustomerChoiceBirthstoneListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CustomerChoiceBirthstoneList")
     public JAXBElement<CustomerChoiceBirthstoneListType> createCustomerChoiceBirthstoneList(CustomerChoiceBirthstoneListType value) {
@@ -2101,8 +2313,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CustomerChoiceListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CustomerChoiceListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CustomerChoiceList")
     public JAXBElement<CustomerChoiceListType> createCustomerChoiceList(CustomerChoiceListType value) {
@@ -2110,8 +2326,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Department")
     public JAXBElement<DepartmentType> createDepartment(DepartmentType value) {
@@ -2119,8 +2339,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentAttributes")
     public JAXBElement<DepartmentAttributesType> createDepartmentAttributes(DepartmentAttributesType value) {
@@ -2128,8 +2352,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentAttributesList")
     public JAXBElement<DepartmentAttributesListType> createDepartmentAttributesList(DepartmentAttributesListType value) {
@@ -2137,8 +2365,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBrandAssociationType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBrandAssociationType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentBrandAssociationType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentBrandAssociation")
     public JAXBElement<DepartmentBrandAssociationType> createDepartmentBrandAssociation(DepartmentBrandAssociationType value) {
@@ -2146,8 +2378,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBrandAssociationListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBrandAssociationListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentBrandAssociationListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentBrandAssociationList")
     public JAXBElement<DepartmentBrandAssociationListType> createDepartmentBrandAssociationList(DepartmentBrandAssociationListType value) {
@@ -2155,8 +2391,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBrandVendorAssociationType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBrandVendorAssociationType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentBrandVendorAssociationType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentBrandVendorAssociation")
     public JAXBElement<DepartmentBrandVendorAssociationType> createDepartmentBrandVendorAssociation(DepartmentBrandVendorAssociationType value) {
@@ -2164,8 +2404,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBrandVendorAssociationListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentBrandVendorAssociationListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentBrandVendorAssociationListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentBrandVendorAssociationList")
     public JAXBElement<DepartmentBrandVendorAssociationListType> createDepartmentBrandVendorAssociationList(DepartmentBrandVendorAssociationListType value) {
@@ -2173,8 +2417,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentLevelSecurityType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentLevelSecurityType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentLevelSecurityType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentLevelSecurity")
     public JAXBElement<DepartmentLevelSecurityType> createDepartmentLevelSecurity(DepartmentLevelSecurityType value) {
@@ -2182,8 +2430,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentLevelSecurityListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentLevelSecurityListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentLevelSecurityListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentLevelSecurityList")
     public JAXBElement<DepartmentLevelSecurityListType> createDepartmentLevelSecurityList(DepartmentLevelSecurityListType value) {
@@ -2191,8 +2443,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentList")
     public JAXBElement<DepartmentListType> createDepartmentList(DepartmentListType value) {
@@ -2200,8 +2456,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentSizeAssociationType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentSizeAssociationType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentSizeAssociationType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentSizeAssociation")
     public JAXBElement<DepartmentSizeAssociationType> createDepartmentSizeAssociation(DepartmentSizeAssociationType value) {
@@ -2209,8 +2469,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentSizeAssociationListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DepartmentSizeAssociationListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DepartmentSizeAssociationListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DepartmentSizeAssociationList")
     public JAXBElement<DepartmentSizeAssociationListType> createDepartmentSizeAssociationList(DepartmentSizeAssociationListType value) {
@@ -2218,8 +2482,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DivisionalMerchandiseArea")
     public JAXBElement<DivisionalMerchandiseAreaType> createDivisionalMerchandiseArea(DivisionalMerchandiseAreaType value) {
@@ -2227,8 +2495,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DivisionalMerchandiseAreaAttributes")
     public JAXBElement<DivisionalMerchandiseAreaAttributesType> createDivisionalMerchandiseAreaAttributes(DivisionalMerchandiseAreaAttributesType value) {
@@ -2236,8 +2508,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DivisionalMerchandiseAreaAttributesList")
     public JAXBElement<DivisionalMerchandiseAreaAttributesListType> createDivisionalMerchandiseAreaAttributesList(DivisionalMerchandiseAreaAttributesListType value) {
@@ -2245,8 +2521,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link DivisionalMerchandiseAreaListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DivisionalMerchandiseAreaList")
     public JAXBElement<DivisionalMerchandiseAreaListType> createDivisionalMerchandiseAreaList(DivisionalMerchandiseAreaListType value) {
@@ -2254,8 +2534,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ExtendedFilterInputType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ExtendedFilterInputType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ExtendedFilterInputType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ExtendedFilterInput")
     public JAXBElement<ExtendedFilterInputType> createExtendedFilterInput(ExtendedFilterInputType value) {
@@ -2263,8 +2547,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ExtendedFilterOutputType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ExtendedFilterOutputType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ExtendedFilterOutputType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ExtendedFilterOutput")
     public JAXBElement<ExtendedFilterOutputType> createExtendedFilterOutput(ExtendedFilterOutputType value) {
@@ -2272,8 +2560,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Name")
     public JAXBElement<String> createName(String value) {
@@ -2281,8 +2573,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Value")
     public JAXBElement<String> createValue(String value) {
@@ -2290,8 +2586,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ExtractRequestType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ExtractRequestType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ExtractRequestType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ExtractRequest")
     public JAXBElement<ExtractRequestType> createExtractRequest(ExtractRequestType value) {
@@ -2299,8 +2599,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ExtractResponseType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ExtractResponseType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ExtractResponseType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ExtractResponse")
     public JAXBElement<ExtractResponseType> createExtractResponse(ExtractResponseType value) {
@@ -2308,8 +2612,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ExtractStatusType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ExtractStatusType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ExtractStatusType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ExtractStatus")
     public JAXBElement<ExtractStatusType> createExtractStatus(ExtractStatusType value) {
@@ -2317,8 +2625,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link FaultType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link FaultType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link FaultType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Fault")
     public JAXBElement<FaultType> createFault(FaultType value) {
@@ -2326,8 +2638,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link FilterType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link FilterType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link FilterType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Filter")
     public JAXBElement<FilterType> createFilter(FilterType value) {
@@ -2335,8 +2651,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GemstoneType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Gemstone")
     public JAXBElement<GemstoneType> createGemstone(GemstoneType value) {
@@ -2344,8 +2664,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneCalendarType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneCalendarType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GemstoneCalendarType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GemstoneCalendar")
     public JAXBElement<GemstoneCalendarType> createGemstoneCalendar(GemstoneCalendarType value) {
@@ -2353,8 +2677,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneCalendarListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneCalendarListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GemstoneCalendarListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GemstoneCalendarList")
     public JAXBElement<GemstoneCalendarListType> createGemstoneCalendarList(GemstoneCalendarListType value) {
@@ -2362,8 +2690,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GemstoneListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GemstoneList")
     public JAXBElement<GemstoneListType> createGemstoneList(GemstoneListType value) {
@@ -2371,8 +2703,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GeneralMerchandiseArea")
     public JAXBElement<GeneralMerchandiseAreaType> createGeneralMerchandiseArea(GeneralMerchandiseAreaType value) {
@@ -2380,8 +2716,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GeneralMerchandiseAreaAttributes")
     public JAXBElement<GeneralMerchandiseAreaAttributesType> createGeneralMerchandiseAreaAttributes(GeneralMerchandiseAreaAttributesType value) {
@@ -2389,8 +2729,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GeneralMerchandiseAreaAttributesList")
     public JAXBElement<GeneralMerchandiseAreaAttributesListType> createGeneralMerchandiseAreaAttributesList(GeneralMerchandiseAreaAttributesListType value) {
@@ -2398,8 +2742,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GeneralMerchandiseAreaListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GeneralMerchandiseAreaList")
     public JAXBElement<GeneralMerchandiseAreaListType> createGeneralMerchandiseAreaList(GeneralMerchandiseAreaListType value) {
@@ -2407,8 +2755,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyle")
     public JAXBElement<KohlsStyleType> createKohlsStyle(KohlsStyleType value) {
@@ -2416,8 +2768,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleAttributes")
     public JAXBElement<KohlsStyleAttributesType> createKohlsStyleAttributes(KohlsStyleAttributesType value) {
@@ -2425,8 +2781,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleAttributesList")
     public JAXBElement<KohlsStyleAttributesListType> createKohlsStyleAttributesList(KohlsStyleAttributesListType value) {
@@ -2434,8 +2794,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleCountryType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleCountryType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleCountryType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleCountry")
     public JAXBElement<KohlsStyleCountryType> createKohlsStyleCountry(KohlsStyleCountryType value) {
@@ -2443,8 +2807,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleCountryListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleCountryListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleCountryListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleCountryList")
     public JAXBElement<KohlsStyleCountryListType> createKohlsStyleCountryList(KohlsStyleCountryListType value) {
@@ -2452,8 +2820,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleList")
     public JAXBElement<KohlsStyleListType> createKohlsStyleList(KohlsStyleListType value) {
@@ -2461,8 +2833,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleMaximumPurchaseLimitType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleMaximumPurchaseLimitType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleMaximumPurchaseLimitType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleMaximumPurchaseLimit")
     public JAXBElement<KohlsStyleMaximumPurchaseLimitType> createKohlsStyleMaximumPurchaseLimit(KohlsStyleMaximumPurchaseLimitType value) {
@@ -2470,8 +2846,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleMaximumPurchaseLimitListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleMaximumPurchaseLimitListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleMaximumPurchaseLimitListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleMaximumPurchaseLimitList")
     public JAXBElement<KohlsStyleMaximumPurchaseLimitListType> createKohlsStyleMaximumPurchaseLimitList(KohlsStyleMaximumPurchaseLimitListType value) {
@@ -2479,8 +2859,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleProductCapacityType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleProductCapacityType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleProductCapacityType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleProductCapacity")
     public JAXBElement<KohlsStyleProductCapacityType> createKohlsStyleProductCapacity(KohlsStyleProductCapacityType value) {
@@ -2488,8 +2872,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleProductCapacityListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleProductCapacityListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleProductCapacityListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleProductCapacityList")
     public JAXBElement<KohlsStyleProductCapacityListType> createKohlsStyleProductCapacityList(KohlsStyleProductCapacityListType value) {
@@ -2497,8 +2885,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleVendorStyleAssociation")
     public JAXBElement<KohlsStyleVendorStyleAssociationType> createKohlsStyleVendorStyleAssociation(KohlsStyleVendorStyleAssociationType value) {
@@ -2506,8 +2898,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleVendorStyleAssociationList")
     public JAXBElement<KohlsStyleVendorStyleAssociationListType> createKohlsStyleVendorStyleAssociationList(KohlsStyleVendorStyleAssociationListType value) {
@@ -2515,8 +2911,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStylePartnerType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStylePartnerType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStylePartnerType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleVendorStylePartner")
     public JAXBElement<KohlsStyleVendorStylePartnerType> createKohlsStyleVendorStylePartner(KohlsStyleVendorStylePartnerType value) {
@@ -2524,8 +2924,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStylePartnerListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStylePartnerListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStylePartnerListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsStyleVendorStylePartnerList")
     public JAXBElement<KohlsStyleVendorStylePartnerListType> createKohlsStyleVendorStylePartnerList(KohlsStyleVendorStylePartnerListType value) {
@@ -2533,8 +2937,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MDMChangeEventType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MDMChangeEventType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MDMChangeEventType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MDMChangeEvent")
     public JAXBElement<MDMChangeEventType> createMDMChangeEvent(MDMChangeEventType value) {
@@ -2542,8 +2950,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MDMCommandType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MDMCommandType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MDMCommandType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MDMCommand")
     public JAXBElement<MDMCommandType> createMDMCommand(MDMCommandType value) {
@@ -2551,8 +2963,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MDMCommandListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MDMCommandListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MDMCommandListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MDMCommandList")
     public JAXBElement<MDMCommandListType> createMDMCommandList(MDMCommandListType value) {
@@ -2560,8 +2976,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MDMRoleType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MDMRoleType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MDMRoleType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MDMRole")
     public JAXBElement<MDMRoleType> createMDMRole(MDMRoleType value) {
@@ -2569,8 +2989,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MDMRoleListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MDMRoleListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MDMRoleListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MDMRoleList")
     public JAXBElement<MDMRoleListType> createMDMRoleList(MDMRoleListType value) {
@@ -2578,8 +3002,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MDMUserType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MDMUserType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MDMUserType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MDMUser")
     public JAXBElement<MDMUserType> createMDMUser(MDMUserType value) {
@@ -2587,8 +3015,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MDMUserListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MDMUserListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MDMUserListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MDMUserList")
     public JAXBElement<MDMUserListType> createMDMUserList(MDMUserListType value) {
@@ -2596,8 +3028,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MasterCatalogName")
     public JAXBElement<String> createMasterCatalogName(String value) {
@@ -2605,8 +3041,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ProductID")
     public JAXBElement<String> createProductID(String value) {
@@ -2614,8 +3054,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ProductIDExt")
     public JAXBElement<String> createProductIDExt(String value) {
@@ -2623,8 +3067,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QueryTypeList }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link QueryTypeList }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link QueryTypeList }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "QueryType")
     public JAXBElement<QueryTypeList> createQueryType(QueryTypeList value) {
@@ -2632,8 +3080,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link MerchandiseHierarchyType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link MerchandiseHierarchyType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MerchandiseHierarchyType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MerchandiseHierarchy")
     public JAXBElement<MerchandiseHierarchyType> createMerchandiseHierarchy(MerchandiseHierarchyType value) {
@@ -2641,8 +3093,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ColorType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "NRFColor")
     public JAXBElement<ColorType> createNRFColor(ColorType value) {
@@ -2650,8 +3106,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SizeType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SizeType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SizeType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "NRFSize")
     public JAXBElement<SizeType> createNRFSize(SizeType value) {
@@ -2659,8 +3119,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link CPSKUType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link CPSKUType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "NonCPSKU")
     public JAXBElement<CPSKUType> createNonCPSKU(CPSKUType value) {
@@ -2668,8 +3132,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link NonCPSKUListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link NonCPSKUListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link NonCPSKUListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "NonCPSKUList")
     public JAXBElement<NonCPSKUListType> createNonCPSKUList(NonCPSKUListType value) {
@@ -2677,8 +3145,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link OperatingCompanyType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "OperatingCompany")
     public JAXBElement<OperatingCompanyType> createOperatingCompany(OperatingCompanyType value) {
@@ -2686,8 +3158,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link OperatingCompanyAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "OperatingCompanyAttributes")
     public JAXBElement<OperatingCompanyAttributesType> createOperatingCompanyAttributes(OperatingCompanyAttributesType value) {
@@ -2695,8 +3171,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link OperatingCompanyAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "OperatingCompanyAttributesList")
     public JAXBElement<OperatingCompanyAttributesListType> createOperatingCompanyAttributesList(OperatingCompanyAttributesListType value) {
@@ -2704,8 +3184,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link OperatingCompanyListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "OperatingCompanyList")
     public JAXBElement<OperatingCompanyListType> createOperatingCompanyList(OperatingCompanyListType value) {
@@ -2713,8 +3197,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PackagingSpecificationGridType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link PackagingSpecificationGridType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link PackagingSpecificationGridType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "PackagingSpecificationGrid")
     public JAXBElement<PackagingSpecificationGridType> createPackagingSpecificationGrid(PackagingSpecificationGridType value) {
@@ -2722,8 +3210,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PackagingSpecificationGridListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link PackagingSpecificationGridListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link PackagingSpecificationGridListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "PackagingSpecificationGridList")
     public JAXBElement<PackagingSpecificationGridListType> createPackagingSpecificationGridList(PackagingSpecificationGridListType value) {
@@ -2731,8 +3223,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PrivateBrandCostFactorType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link PrivateBrandCostFactorType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link PrivateBrandCostFactorType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "PrivateBrandCostFactor")
     public JAXBElement<PrivateBrandCostFactorType> createPrivateBrandCostFactor(PrivateBrandCostFactorType value) {
@@ -2740,8 +3236,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PrivateBrandCostFactorListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link PrivateBrandCostFactorListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link PrivateBrandCostFactorListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "PrivateBrandCostFactorList")
     public JAXBElement<PrivateBrandCostFactorListType> createPrivateBrandCostFactorList(PrivateBrandCostFactorListType value) {
@@ -2749,8 +3249,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link OperatingCompanyListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link OperatingCompanyListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ProductAspect")
     public JAXBElement<OperatingCompanyListType> createProductAspect(OperatingCompanyListType value) {
@@ -2758,8 +3262,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ProductCDMType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ProductCDMType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ProductCDMType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ProductCDM")
     public JAXBElement<ProductCDMType> createProductCDM(ProductCDMType value) {
@@ -2767,8 +3275,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "RecordAttribute")
     public JAXBElement<String> createRecordAttribute(String value) {
@@ -2776,8 +3288,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceCodeType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceCodeType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceCodeType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReferenceCode")
     public JAXBElement<ReferenceCodeType> createReferenceCode(ReferenceCodeType value) {
@@ -2785,8 +3301,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceCodeListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceCodeListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceCodeListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReferenceCodeList")
     public JAXBElement<ReferenceCodeListType> createReferenceCodeList(ReferenceCodeListType value) {
@@ -2794,8 +3314,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceLibraryType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceLibraryType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceLibraryType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReferenceLibrary")
     public JAXBElement<ReferenceLibraryType> createReferenceLibrary(ReferenceLibraryType value) {
@@ -2803,8 +3327,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReferenceLookup")
     public JAXBElement<ReferenceValueType> createReferenceLookup(ReferenceValueType value) {
@@ -2812,8 +3340,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReferenceValue")
     public JAXBElement<ReferenceValueType> createReferenceValue(ReferenceValueType value) {
@@ -2821,8 +3353,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReferenceValueList")
     public JAXBElement<ReferenceValueListType> createReferenceValueList(ReferenceValueListType value) {
@@ -2830,8 +3366,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReportingLabelPurposeType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReportingLabelPurposeType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReportingLabelPurposeType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReportingLabelPurpose")
     public JAXBElement<ReportingLabelPurposeType> createReportingLabelPurpose(ReportingLabelPurposeType value) {
@@ -2839,8 +3379,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReportingLabelPurposeListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReportingLabelPurposeListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReportingLabelPurposeListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReportingLabelPurposeList")
     public JAXBElement<ReportingLabelPurposeListType> createReportingLabelPurposeList(ReportingLabelPurposeListType value) {
@@ -2848,8 +3392,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKU")
     public JAXBElement<SKUType> createSKU(SKUType value) {
@@ -2857,8 +3405,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUAttributes")
     public JAXBElement<SKUAttributesType> createSKUAttributes(SKUAttributesType value) {
@@ -2866,8 +3418,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUAttributesList")
     public JAXBElement<SKUAttributesListType> createSKUAttributesList(SKUAttributesListType value) {
@@ -2875,8 +3431,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUCountryType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUCountryType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUCountryType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUCountry")
     public JAXBElement<SKUCountryType> createSKUCountry(SKUCountryType value) {
@@ -2884,8 +3444,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUCountryListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUCountryListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUCountryListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUCountryList")
     public JAXBElement<SKUCountryListType> createSKUCountryList(SKUCountryListType value) {
@@ -2893,8 +3457,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUDimensionType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUDimensionType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUDimensionType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUDimension")
     public JAXBElement<SKUDimensionType> createSKUDimension(SKUDimensionType value) {
@@ -2902,8 +3470,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUDimensionListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUDimensionListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUDimensionListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUDimensionList")
     public JAXBElement<SKUDimensionListType> createSKUDimensionList(SKUDimensionListType value) {
@@ -2911,8 +3483,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUDirectShipType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUDirectShipType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUDirectShipType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUDirectShip")
     public JAXBElement<SKUDirectShipType> createSKUDirectShip(SKUDirectShipType value) {
@@ -2920,8 +3496,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUDirectShipListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUDirectShipListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUDirectShipListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUDirectShipList")
     public JAXBElement<SKUDirectShipListType> createSKUDirectShipList(SKUDirectShipListType value) {
@@ -2929,8 +3509,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUList")
     public JAXBElement<SKUListType> createSKUList(SKUListType value) {
@@ -2938,8 +3522,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUSellingChannelType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUSellingChannelType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUSellingChannelType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUSellingChannel")
     public JAXBElement<SKUSellingChannelType> createSKUSellingChannel(SKUSellingChannelType value) {
@@ -2947,8 +3535,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SKUSellingChannelListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SKUSellingChannelListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SKUSellingChannelListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SKUSellingChannelList")
     public JAXBElement<SKUSellingChannelListType> createSKUSellingChannelList(SKUSellingChannelListType value) {
@@ -2956,8 +3548,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SizeType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SizeType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SizeType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Size")
     public JAXBElement<SizeType> createSize(SizeType value) {
@@ -2965,8 +3561,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SizeListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SizeListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SizeListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SizeList")
     public JAXBElement<SizeListType> createSizeList(SizeListType value) {
@@ -2974,8 +3574,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link StyleDistributionCenterAssociationType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link StyleDistributionCenterAssociationType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link StyleDistributionCenterAssociationType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "StyleDistributionCenterAssociation")
     public JAXBElement<StyleDistributionCenterAssociationType> createStyleDistributionCenterAssociation(StyleDistributionCenterAssociationType value) {
@@ -2983,8 +3587,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SubClassType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SubClass")
     public JAXBElement<SubClassType> createSubClass(SubClassType value) {
@@ -2992,8 +3600,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SubClassAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SubClassAttributes")
     public JAXBElement<SubClassAttributesType> createSubClassAttributes(SubClassAttributesType value) {
@@ -3001,8 +3613,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SubClassAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SubClassAttributesList")
     public JAXBElement<SubClassAttributesListType> createSubClassAttributesList(SubClassAttributesListType value) {
@@ -3010,8 +3626,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link SubClassListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link SubClassListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SubClassList")
     public JAXBElement<SubClassListType> createSubClassList(SubClassListType value) {
@@ -3019,8 +3639,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link UPCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link UPCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link UPCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "UPC")
     public JAXBElement<UPCType> createUPC(UPCType value) {
@@ -3028,8 +3652,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link UPCAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link UPCAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link UPCAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "UPCAttributes")
     public JAXBElement<UPCAttributesType> createUPCAttributes(UPCAttributesType value) {
@@ -3037,8 +3665,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link UPCAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link UPCAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link UPCAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "UPCAttributesList")
     public JAXBElement<UPCAttributesListType> createUPCAttributesList(UPCAttributesListType value) {
@@ -3046,8 +3678,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link UPCListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link UPCListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link UPCListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "UPCList")
     public JAXBElement<UPCListType> createUPCList(UPCListType value) {
@@ -3055,8 +3691,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Visibility")
     public JAXBElement<String> createVisibility(String value) {
@@ -3064,8 +3704,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ValueList")
     public JAXBElement<ValueListType> createValueList(ValueListType value) {
@@ -3073,8 +3717,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Vendor")
     public JAXBElement<VendorType> createVendor(VendorType value) {
@@ -3082,8 +3730,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorAttributes")
     public JAXBElement<VendorAttributesType> createVendorAttributes(VendorAttributesType value) {
@@ -3091,8 +3743,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorAttributesList")
     public JAXBElement<VendorAttributesListType> createVendorAttributesList(VendorAttributesListType value) {
@@ -3100,8 +3756,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorDepartmentAssociationType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorDepartmentAssociationType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorDepartmentAssociationType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorDepartmentAssociation")
     public JAXBElement<VendorDepartmentAssociationType> createVendorDepartmentAssociation(VendorDepartmentAssociationType value) {
@@ -3109,8 +3769,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorDepartmentAssociationListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorDepartmentAssociationListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorDepartmentAssociationListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorDepartmentAssociationList")
     public JAXBElement<VendorDepartmentAssociationListType> createVendorDepartmentAssociationList(VendorDepartmentAssociationListType value) {
@@ -3118,8 +3782,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorList")
     public JAXBElement<VendorListType> createVendorList(VendorListType value) {
@@ -3127,8 +3795,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link KohlsStyleVendorStyleAssociationListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorStyleList")
     public JAXBElement<KohlsStyleVendorStyleAssociationListType> createVendorStyleList(KohlsStyleVendorStyleAssociationListType value) {
@@ -3136,8 +3808,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorUPCType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorUPC")
     public JAXBElement<VendorUPCType> createVendorUPC(VendorUPCType value) {
@@ -3145,8 +3821,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorUPCAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorUPCAttributes")
     public JAXBElement<VendorUPCAttributesType> createVendorUPCAttributes(VendorUPCAttributesType value) {
@@ -3154,8 +3834,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorUPCAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorUPCAttributesList")
     public JAXBElement<VendorUPCAttributesListType> createVendorUPCAttributesList(VendorUPCAttributesListType value) {
@@ -3163,8 +3847,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorUPCCountry")
     public JAXBElement<VendorUPCCountryType> createVendorUPCCountry(VendorUPCCountryType value) {
@@ -3172,8 +3860,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryAttributesType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryAttributesType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryAttributesType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorUPCCountryAttributes")
     public JAXBElement<VendorUPCCountryAttributesType> createVendorUPCCountryAttributes(VendorUPCCountryAttributesType value) {
@@ -3181,8 +3873,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryAttributesListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryAttributesListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryAttributesListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorUPCCountryAttributesList")
     public JAXBElement<VendorUPCCountryAttributesListType> createVendorUPCCountryAttributesList(VendorUPCCountryAttributesListType value) {
@@ -3190,8 +3886,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorUPCCountryListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorUPCCountryList")
     public JAXBElement<VendorUPCCountryListType> createVendorUPCCountryList(VendorUPCCountryListType value) {
@@ -3199,8 +3899,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link VendorUPCListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link VendorUPCListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "VendorUPCList")
     public JAXBElement<VendorUPCListType> createVendorUPCList(VendorUPCListType value) {
@@ -3208,8 +3912,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ShoeWidth", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueType> createSKUAttributesTypeShoeWidth(ReferenceValueType value) {
@@ -3217,8 +3925,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "FeatureM", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueListType> createSKUAttributesTypeFeatureM(ReferenceValueListType value) {
@@ -3226,8 +3938,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ReturnDisposition", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueType> createSKUAttributesTypeReturnDisposition(ReferenceValueType value) {
@@ -3235,8 +3951,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ShippingRestriction", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueType> createSKUAttributesTypeShippingRestriction(ReferenceValueType value) {
@@ -3244,8 +3964,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ShippingService", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueType> createSKUAttributesTypeShippingService(ReferenceValueType value) {
@@ -3253,8 +3977,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ShippingPackageCategory", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueType> createSKUAttributesTypeShippingPackageCategory(ReferenceValueType value) {
@@ -3262,8 +3990,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SportsLeagueM", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueListType> createSKUAttributesTypeSportsLeagueM(ReferenceValueListType value) {
@@ -3271,8 +4003,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SportsTeamM", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueListType> createSKUAttributesTypeSportsTeamM(ReferenceValueListType value) {
@@ -3280,8 +4016,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SportsPlayerM", scope = SKUAttributesType.class)
     public JAXBElement<ReferenceValueListType> createSKUAttributesTypeSportsPlayerM(ReferenceValueListType value) {
@@ -3289,8 +4029,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SizeCategory", scope = SizeType.class)
     public JAXBElement<ReferenceValueType> createSizeTypeSizeCategory(ReferenceValueType value) {
@@ -3298,8 +4042,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerPersonaCategoryM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerPersonaCategoryM(ReferenceValueListType value) {
@@ -3307,8 +4055,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerPersonaGroupM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerPersonaGroupM(ReferenceValueListType value) {
@@ -3316,8 +4068,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerPersonaSubjectM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerPersonaSubjectM(ReferenceValueListType value) {
@@ -3325,8 +4081,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerPersonaThemeM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerPersonaThemeM(ReferenceValueListType value) {
@@ -3334,8 +4094,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerFit", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeConsumerFit(ReferenceValueType value) {
@@ -3343,8 +4107,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerLength", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeConsumerLength(ReferenceValueType value) {
@@ -3352,8 +4120,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerLegOpening", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeConsumerLegOpening(ReferenceValueType value) {
@@ -3361,8 +4133,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerRise", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeConsumerRise(ReferenceValueType value) {
@@ -3370,8 +4146,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerPantFront", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeConsumerPantFront(ReferenceValueType value) {
@@ -3379,8 +4159,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerSilhouetteM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerSilhouetteM(ReferenceValueListType value) {
@@ -3388,8 +4172,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerNecklineM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerNecklineM(ReferenceValueListType value) {
@@ -3397,8 +4185,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerSleeveLength", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeConsumerSleeveLength(ReferenceValueType value) {
@@ -3406,8 +4198,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerClosureM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerClosureM(ReferenceValueListType value) {
@@ -3415,8 +4211,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CustomerBodyCharacteristicM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeCustomerBodyCharacteristicM(ReferenceValueListType value) {
@@ -3424,8 +4224,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerMaterialM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerMaterialM(ReferenceValueListType value) {
@@ -3433,8 +4237,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerFillMaterialM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerFillMaterialM(ReferenceValueListType value) {
@@ -3442,8 +4250,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerCareInstructionsM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerCareInstructionsM(ReferenceValueListType value) {
@@ -3451,8 +4263,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerOccasionM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerOccasionM(ReferenceValueListType value) {
@@ -3460,8 +4276,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerHandleStyleM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeConsumerHandleStyleM(ReferenceValueListType value) {
@@ -3469,8 +4289,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "HeelHeightUOM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeHeelHeightUOM(ReferenceValueType value) {
@@ -3478,8 +4302,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BootShaftCharacteristicM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeBootShaftCharacteristicM(ReferenceValueListType value) {
@@ -3487,8 +4315,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GenderM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeGenderM(ReferenceValueListType value) {
@@ -3496,8 +4328,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DisplaySizeUOM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeDisplaySizeUOM(ReferenceValueType value) {
@@ -3505,8 +4341,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DisplayResolution", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeDisplayResolution(ReferenceValueType value) {
@@ -3514,8 +4354,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ElectronicStorageCapacityUOM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeElectronicStorageCapacityUOM(ReferenceValueType value) {
@@ -3523,8 +4367,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MetalCaratM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeMetalCaratM(ReferenceValueListType value) {
@@ -3532,8 +4380,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GemstoneCarat", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeGemstoneCarat(ReferenceValueType value) {
@@ -3541,8 +4393,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DiamondColorGradeM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeDiamondColorGradeM(ReferenceValueListType value) {
@@ -3550,8 +4406,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DiamondClarityGradeM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeDiamondClarityGradeM(ReferenceValueListType value) {
@@ -3559,8 +4419,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "KohlsSpecialSKUType", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeKohlsSpecialSKUType(ReferenceValueType value) {
@@ -3568,8 +4432,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DevicePlatformM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeDevicePlatformM(ReferenceValueListType value) {
@@ -3577,8 +4445,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BeverageTypeM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeBeverageTypeM(ReferenceValueListType value) {
@@ -3586,8 +4458,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "FirmnessRatingM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeFirmnessRatingM(ReferenceValueListType value) {
@@ -3595,8 +4471,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "UPFRating", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeUPFRating(ReferenceValueType value) {
@@ -3604,8 +4484,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BodySupportRatingM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeBodySupportRatingM(ReferenceValueListType value) {
@@ -3613,8 +4497,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MaterialWeightRatingM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeMaterialWeightRatingM(ReferenceValueListType value) {
@@ -3622,8 +4510,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "AgeCategoryM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeAgeCategoryM(ReferenceValueListType value) {
@@ -3631,8 +4523,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "AppropriateAgeRangeM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeAppropriateAgeRangeM(ReferenceValueListType value) {
@@ -3640,8 +4536,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "RoomM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeRoomM(ReferenceValueListType value) {
@@ -3649,8 +4549,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "RecommendedUsageM", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueListType> createKohlsStyleAttributesTypeRecommendedUsageM(ReferenceValueListType value) {
@@ -3658,8 +4562,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "WatchClockMovement", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeWatchClockMovement(ReferenceValueType value) {
@@ -3667,8 +4575,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "FraudRisk", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeFraudRisk(ReferenceValueType value) {
@@ -3676,8 +4588,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "TaxwareProduct", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeTaxwareProduct(ReferenceValueType value) {
@@ -3685,8 +4601,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ProductType", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeProductType(ReferenceValueType value) {
@@ -3694,8 +4614,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ProductSubtype", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeProductSubtype(ReferenceValueType value) {
@@ -3703,8 +4627,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CupCoverage", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeCupCoverage(ReferenceValueType value) {
@@ -3712,8 +4640,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CupType", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeCupType(ReferenceValueType value) {
@@ -3721,8 +4653,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "CuffType", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeCuffType(ReferenceValueType value) {
@@ -3730,8 +4666,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "PocketType", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypePocketType(ReferenceValueType value) {
@@ -3739,8 +4679,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Sheerness", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeSheerness(ReferenceValueType value) {
@@ -3748,8 +4692,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "StrapType", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeStrapType(ReferenceValueType value) {
@@ -3757,8 +4705,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SaleablePackageType", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeSaleablePackageType(ReferenceValueType value) {
@@ -3766,8 +4718,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SecondaryProductShape", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeSecondaryProductShape(ReferenceValueType value) {
@@ -3775,8 +4731,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "PrimaryToeCharacteristic", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypePrimaryToeCharacteristic(ReferenceValueType value) {
@@ -3784,8 +4744,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Closure", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeClosure(ReferenceValueType value) {
@@ -3793,8 +4757,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GemstoneCut", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeGemstoneCut(ReferenceValueType value) {
@@ -3802,8 +4770,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "OccasionPurpose", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeOccasionPurpose(ReferenceValueType value) {
@@ -3811,8 +4783,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Property", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeProperty(ReferenceValueType value) {
@@ -3820,8 +4796,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Theme", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeTheme(ReferenceValueType value) {
@@ -3829,8 +4809,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "BodyCharacteristic", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeBodyCharacteristic(ReferenceValueType value) {
@@ -3838,8 +4822,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SourceSystem", scope = KohlsStyleAttributesType.class)
     public JAXBElement<ReferenceValueType> createKohlsStyleAttributesTypeSourceSystem(ReferenceValueType value) {
@@ -3847,8 +4835,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ChildSizeRangeM", scope = DepartmentSizeAssociationType.class)
     public JAXBElement<ReferenceValueListType> createDepartmentSizeAssociationTypeChildSizeRangeM(ReferenceValueListType value) {
@@ -3856,8 +4848,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Seasonality", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueType> createCustomerChoiceAttributesTypeSeasonality(ReferenceValueType value) {
@@ -3865,8 +4861,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ColorListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ColorListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ColorListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SupportingNRFColorFamilyM", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ColorListType> createCustomerChoiceAttributesTypeSupportingNRFColorFamilyM(ColorListType value) {
@@ -3874,8 +4874,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerMetalColorM", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueListType> createCustomerChoiceAttributesTypeConsumerMetalColorM(ReferenceValueListType value) {
@@ -3883,8 +4887,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerPrimaryTrendM", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueListType> createCustomerChoiceAttributesTypeConsumerPrimaryTrendM(ReferenceValueListType value) {
@@ -3892,8 +4900,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerPattern", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueType> createCustomerChoiceAttributesTypeConsumerPattern(ReferenceValueType value) {
@@ -3901,8 +4913,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerMaterialFinishM", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueListType> createCustomerChoiceAttributesTypeConsumerMaterialFinishM(ReferenceValueListType value) {
@@ -3910,8 +4926,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConsumerOutsoleMaterialM", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueListType> createCustomerChoiceAttributesTypeConsumerOutsoleMaterialM(ReferenceValueListType value) {
@@ -3919,8 +4939,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GemstoneListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link GemstoneListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "GemstoneM", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<GemstoneListType> createCustomerChoiceAttributesTypeGemstoneM(GemstoneListType value) {
@@ -3928,8 +4952,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Pattern", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueType> createCustomerChoiceAttributesTypePattern(ReferenceValueType value) {
@@ -3937,8 +4965,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "Wash", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueType> createCustomerChoiceAttributesTypeWash(ReferenceValueType value) {
@@ -3946,8 +4978,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "MetalTone", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueType> createCustomerChoiceAttributesTypeMetalTone(ReferenceValueType value) {
@@ -3955,8 +4991,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "DialColor", scope = CustomerChoiceAttributesType.class)
     public JAXBElement<ReferenceValueType> createCustomerChoiceAttributesTypeDialColor(ReferenceValueType value) {
@@ -3964,8 +5004,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "PutAway", scope = ClassAttributesType.class)
     public JAXBElement<ReferenceValueType> createClassAttributesTypePutAway(ReferenceValueType value) {
@@ -3973,8 +5017,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "SmartDefaultReferenceValueM", scope = AttributeRuleManagementType.class)
     public JAXBElement<ReferenceValueListType> createAttributeRuleManagementTypeSmartDefaultReferenceValueM(ReferenceValueListType value) {
@@ -3982,8 +5030,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link ReferenceValueListType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/cdm/ProductTypesCDM/V1", name = "ConditionalDropDownReferenceValueM", scope = AttributeRuleManagementType.class)
     public JAXBElement<ReferenceValueListType> createAttributeRuleManagementTypeConditionalDropDownReferenceValueM(ReferenceValueListType value) {

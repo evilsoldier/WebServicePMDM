@@ -220,8 +220,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.tibco.com/cim/services/adminservice/wsdl/2.0", name = "Enterprise")
     public JAXBElement<String> createEnterprise(String value) {
@@ -229,8 +233,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.tibco.com/cim/services/adminservice/wsdl/2.0", name = "Password")
     public JAXBElement<String> createPassword(String value) {
@@ -238,8 +246,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.tibco.com/cim/services/adminservice/wsdl/2.0", name = "UserName")
     public JAXBElement<String> createUserName(String value) {

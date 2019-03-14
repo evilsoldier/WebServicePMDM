@@ -117,8 +117,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/ProductMDM/LogisticsInterface/V1.xsd", name = "Command")
     public JAXBElement<String> createCommand(String value) {
@@ -126,8 +130,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link WSUpdateOutputSKUDimensionType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link WSUpdateOutputSKUDimensionType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link WSUpdateOutputSKUDimensionType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/ProductMDM/LogisticsInterface/V1.xsd", name = "SKUDimension")
     public JAXBElement<WSUpdateOutputSKUDimensionType> createSKUDimension(WSUpdateOutputSKUDimensionType value) {
@@ -135,8 +143,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link UpdateWarehouseAttributesInputType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link UpdateWarehouseAttributesInputType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link UpdateWarehouseAttributesInputType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/ProductMDM/LogisticsInterface/V1.xsd", name = "UpdateWarehouseAttributesInput")
     public JAXBElement<UpdateWarehouseAttributesInputType> createUpdateWarehouseAttributesInput(UpdateWarehouseAttributesInputType value) {
@@ -144,8 +156,12 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link UpdateWarehouseAttributesOutputType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link UpdateWarehouseAttributesOutputType }{@code >}
      * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link UpdateWarehouseAttributesOutputType }{@code >}
      */
     @XmlElementDecl(namespace = "http://www.kohls.com/schemas/ProductMDM/LogisticsInterface/V1.xsd", name = "UpdateWarehouseAttributesOutput")
     public JAXBElement<UpdateWarehouseAttributesOutputType> createUpdateWarehouseAttributesOutput(UpdateWarehouseAttributesOutputType value) {
