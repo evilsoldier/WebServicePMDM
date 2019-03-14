@@ -9,15 +9,17 @@ import org.apache.camel.component.cxf.CxfEndpoint;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Component
 @ComponentScan({"com", "com.kohls.commons"})
 @EnableTransactionManagement
+@PropertySource("application.yml")
 public class ContextConfig {
 
-    @Value("hostAndPort")
+    @Value("${hostAndPort}")
     private String hostAndPort;
 
     private CamelContext context;
@@ -25,8 +27,7 @@ public class ContextConfig {
     @Bean
     public CxfEndpoint getCXFEndpoint() {
         CxfComponent cxfComponent = new CxfComponent(context);
-        CxfEndpoint serviceEndpoint = new CxfEndpoint(
-                "http://" + hostAndPort + "/BusinessServices/Interfaces/SKU/GetSKUService.serviceagent/HTTPConnection",
+        CxfEndpoint serviceEndpoint = new CxfEndpoint(hostAndPort + "/BusinessServices/Interfaces/SKU/GetSKUService.serviceagent/HTTPConnection",
                 cxfComponent);
         serviceEndpoint.setServiceClass(GetSKUPort.class);
         serviceEndpoint.setWsdlURL("src/main/resources/GetSKU.wsdl");
@@ -37,8 +38,7 @@ public class ContextConfig {
     @Bean
     public CxfEndpoint updateCXFEndpoint() {
         CxfComponent cxfComponent = new CxfComponent(context);
-        CxfEndpoint serviceEndpoint = new CxfEndpoint(
-                "http://" + hostAndPort + "/PrivateBusinessServices/Interfaces/Logistics/LogisticsAttributeUpdateService.serviceagent/UpdateWarehouseAttributesPortEndpoint1",
+        CxfEndpoint serviceEndpoint = new CxfEndpoint(hostAndPort + "/PrivateBusinessServices/Interfaces/Logistics/LogisticsAttributeUpdateService.serviceagent/UpdateWarehouseAttributesPortEndpoint1",
                 cxfComponent);
         serviceEndpoint.setServiceClass(UpdateWarehouseAttributesPort.class);
         serviceEndpoint.setWsdlURL("src/main/resources/PMDMLogisticsWarehouseAttributeUpdateServiceV1.wsdl");
